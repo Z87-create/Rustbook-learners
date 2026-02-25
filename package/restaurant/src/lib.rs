@@ -11,9 +11,14 @@ mod front_of_house{
     //     fn take_payment(){}
     // }
 }
+//use关键字可以将路径一次引入作用域，然后调用该路径里的项
+use crate::front_of_house::hosting;
+//使用use和相对路径将模块引入作用域
+use front_of_house::hosting;
 pub fn eat_at_restaurant(){
     //绝对路径
-    crate::front_of_house::hosting::hosting::add_to_waitlist();
+    crate::front_of_house::hosting::add_to_waitlist();
+    hosting::add_to_waitlist();
     //相对路径
     front_of_house::hosting::add_to_waitlist();
 }
@@ -61,3 +66,5 @@ pub fn eat_at_restaurant(){
     let order1=back_of_house::Appetizer::Soup;
     let order2=back_of_house::Appetizer:Salad;
 }
+//将HashMap结构体引入二进制crate作用域的习惯用法
+use std::
