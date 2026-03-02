@@ -67,4 +67,18 @@ pub fn eat_at_restaurant(){
     let order2=back_of_house::Appetizer:Salad;
 }
 //将HashMap结构体引入二进制crate作用域的习惯用法
-use std::
+use std::collections::Hashmap;
+fn main(){
+    let mut map=HashMap::new();
+    map.insert(1,2);
+}
+//使用pub use重导出名称,use关键字将名称作用域变成私有化,pub修改了作用域的效果和权限
+mod front_of_house{
+    pub mod hosting{
+        pub fn add_to_waitlist(){}
+    }
+}
+pub use crate::front_of_house::hosting;
+pub fn eat_at_restaurant(){
+    hosting::add_to_waitlist();
+}
