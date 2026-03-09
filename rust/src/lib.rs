@@ -43,6 +43,13 @@ pub mod utils{
     /// Combines two primary colors in equal amouunts to create
     /// a secondary color.
     pub fn mix(c1:PrimaryColor,c2:PrimaryColor)->SecondaryColor{
-        
+
     }
 }
+
+//! #Art
+//!
+//! A library for modeling artistic concepts.
+pub use self::kinds::PrimaryColor;
+pub use self::kinds::SecondaryColor;
+pub use self::utils::mix

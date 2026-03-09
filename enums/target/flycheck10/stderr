@@ -1,0 +1,64 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   2.504454500s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint error for enums v0.1.0 (F:\rust\enums)/Check { test: false }/TargetInner { name: "enums", doc: true, ..: with_path("F:\\rust\\enums\\src\\main.rs", Edition2024) }
+   2.504493500s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\enums\target\debug\.fingerprint\enums-6c606b8e48f3f463\bin-enums`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.762232300s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint error for enums v0.1.0 (F:\rust\enums)/Check { test: true }/TargetInner { name: "enums", doc: true, ..: with_path("F:\\rust\\enums\\src\\main.rs", Edition2024) }
+   2.762281800s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\enums\target\debug\.fingerprint\enums-3628c5ad9402513f\test-bin-enums`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking enums v0.1.0 (F:\rust\enums)
+error: could not compile `enums` (bin "enums") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `enums` (bin "enums" test) due to 1 previous error

@@ -1,3 +1,4 @@
+//集成测试
 use adder;
 mod common;
 #[test]

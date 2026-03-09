@@ -19,7 +19,7 @@ impl Guess{
 }
 
 
-#[cfg(test)]
+#[cfg(test)]//告诉rust只在执行 cargo test时才运行和编译代码，在cargo build时不这么做
 mod tests {
     use super::*;
     #[test]
@@ -86,4 +86,7 @@ mod tests {
 }
 //测试一般是并行运行的，如果不想并行运行应该输入这个指令 cargo testn-- --test-thread==1
 //显示函数输出的指令是cargo test -- --show-output
+//运行单个测试应该 cargo test add_two_and_two,对于想要忽视的测试上面应该加#[ignore]
+//过滤运行多个测试应该 cargo test add_two
+//需要运行过滤的测试可以使用cargo test -- --ignored
 
