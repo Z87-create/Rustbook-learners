@@ -1,6 +1,5 @@
-    Blocking waiting for file lock on package cache
-   0.283043800s  INFO prepare_target{force=false package_id=boxs v0.1.0 (F:\rust\boxs) target="boxs"}: cargo::core::compiler::fingerprint: fingerprint error for boxs v0.1.0 (F:\rust\boxs)/Check { test: false }/TargetInner { name: "boxs", doc: true, ..: with_path("F:\\rust\\boxs\\src\\main.rs", Edition2024) }
-   0.283107800s  INFO prepare_target{force=false package_id=boxs v0.1.0 (F:\rust\boxs) target="boxs"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\boxs\target\debug\.fingerprint\boxs-e848f0801d2ec027\bin-boxs`
+   0.033537800s  INFO prepare_target{force=false package_id=boxs v0.1.0 (F:\rust\boxs) target="boxs"}: cargo::core::compiler::fingerprint: fingerprint error for boxs v0.1.0 (F:\rust\boxs)/Check { test: false }/TargetInner { name: "boxs", doc: true, ..: with_path("F:\\rust\\boxs\\src\\main.rs", Edition2024) }
+   0.033572500s  INFO prepare_target{force=false package_id=boxs v0.1.0 (F:\rust\boxs) target="boxs"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\boxs\target\debug\.fingerprint\boxs-e848f0801d2ec027\bin-boxs`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -27,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.631011900s  INFO prepare_target{force=false package_id=boxs v0.1.0 (F:\rust\boxs) target="boxs"}: cargo::core::compiler::fingerprint: fingerprint error for boxs v0.1.0 (F:\rust\boxs)/Check { test: true }/TargetInner { name: "boxs", doc: true, ..: with_path("F:\\rust\\boxs\\src\\main.rs", Edition2024) }
-   0.631071700s  INFO prepare_target{force=false package_id=boxs v0.1.0 (F:\rust\boxs) target="boxs"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\boxs\target\debug\.fingerprint\boxs-d990b9061faf585d\test-bin-boxs`
+   0.050351200s  INFO prepare_target{force=false package_id=boxs v0.1.0 (F:\rust\boxs) target="boxs"}: cargo::core::compiler::fingerprint: fingerprint error for boxs v0.1.0 (F:\rust\boxs)/Check { test: true }/TargetInner { name: "boxs", doc: true, ..: with_path("F:\\rust\\boxs\\src\\main.rs", Edition2024) }
+   0.050375300s  INFO prepare_target{force=false package_id=boxs v0.1.0 (F:\rust\boxs) target="boxs"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\boxs\target\debug\.fingerprint\boxs-d990b9061faf585d\test-bin-boxs`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -56,6 +55,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking boxs v0.1.0 (F:\rust\boxs)
-error: could not compile `boxs` (bin "boxs") due to 2 previous errors; 1 warning emitted
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `boxs` (bin "boxs" test) due to 2 previous errors; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `boxs` (bin "boxs") due to 2 previous errors; 1 warning emitted

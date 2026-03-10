@@ -1,5 +1,6 @@
-   0.053460000s  INFO prepare_target{force=false package_id=str v0.1.0 (F:\rust\str) target="str"}: cargo::core::compiler::fingerprint: fingerprint error for str v0.1.0 (F:\rust\str)/Check { test: false }/TargetInner { name: "str", doc: true, ..: with_path("F:\\rust\\str\\src\\main.rs", Edition2024) }
-   0.053498400s  INFO prepare_target{force=false package_id=str v0.1.0 (F:\rust\str) target="str"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\str\target\debug\.fingerprint\str-145d432af01d5a50\bin-str`
+    Blocking waiting for file lock on package cache
+   0.126763700s  INFO prepare_target{force=false package_id=str v0.1.0 (F:\rust\str) target="str"}: cargo::core::compiler::fingerprint: fingerprint error for str v0.1.0 (F:\rust\str)/Check { test: false }/TargetInner { name: "str", doc: true, ..: with_path("F:\\rust\\str\\src\\main.rs", Edition2024) }
+   0.126789800s  INFO prepare_target{force=false package_id=str v0.1.0 (F:\rust\str) target="str"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\str\target\debug\.fingerprint\str-145d432af01d5a50\bin-str`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +27,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.122806700s  INFO prepare_target{force=false package_id=str v0.1.0 (F:\rust\str) target="str"}: cargo::core::compiler::fingerprint: fingerprint error for str v0.1.0 (F:\rust\str)/Check { test: true }/TargetInner { name: "str", doc: true, ..: with_path("F:\\rust\\str\\src\\main.rs", Edition2024) }
-   0.122846500s  INFO prepare_target{force=false package_id=str v0.1.0 (F:\rust\str) target="str"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\str\target\debug\.fingerprint\str-0d197f1767d6b4c8\test-bin-str`
+   0.233929600s  INFO prepare_target{force=false package_id=str v0.1.0 (F:\rust\str) target="str"}: cargo::core::compiler::fingerprint: fingerprint error for str v0.1.0 (F:\rust\str)/Check { test: true }/TargetInner { name: "str", doc: true, ..: with_path("F:\\rust\\str\\src\\main.rs", Edition2024) }
+   0.233973500s  INFO prepare_target{force=false package_id=str v0.1.0 (F:\rust\str) target="str"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\str\target\debug\.fingerprint\str-0d197f1767d6b4c8\test-bin-str`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)

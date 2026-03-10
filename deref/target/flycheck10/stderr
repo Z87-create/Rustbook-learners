@@ -1,5 +1,5 @@
-   0.063516200s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint: fingerprint error for deref v0.1.0 (F:\rust\deref)/Check { test: false }/TargetInner { name: "deref", doc: true, ..: with_path("F:\\rust\\deref\\src\\main.rs", Edition2024) }
-   0.063550300s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\deref\target\debug\.fingerprint\deref-b60bd15ff4d052ee\bin-deref`
+   0.040044300s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint: fingerprint error for deref v0.1.0 (F:\rust\deref)/Check { test: false }/TargetInner { name: "deref", doc: true, ..: with_path("F:\\rust\\deref\\src\\main.rs", Edition2024) }
+   0.040103600s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\deref\target\debug\.fingerprint\deref-b60bd15ff4d052ee\bin-deref`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.081943600s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint: fingerprint error for deref v0.1.0 (F:\rust\deref)/Check { test: true }/TargetInner { name: "deref", doc: true, ..: with_path("F:\\rust\\deref\\src\\main.rs", Edition2024) }
-   0.081966000s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\deref\target\debug\.fingerprint\deref-cec0f8d845d69546\test-bin-deref`
+   0.067802900s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint: fingerprint error for deref v0.1.0 (F:\rust\deref)/Check { test: true }/TargetInner { name: "deref", doc: true, ..: with_path("F:\\rust\\deref\\src\\main.rs", Edition2024) }
+   0.067829900s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\deref\target\debug\.fingerprint\deref-cec0f8d845d69546\test-bin-deref`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -55,6 +55,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking deref v0.1.0 (F:\rust\deref)
-error: could not compile `deref` (bin "deref" test) due to 1 previous error
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `deref` (bin "deref") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `deref` (bin "deref" test) due to 1 previous error

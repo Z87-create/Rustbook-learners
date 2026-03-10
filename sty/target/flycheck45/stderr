@@ -1,5 +1,5 @@
-   0.073080800s  INFO prepare_target{force=false package_id=sty v0.1.0 (F:\rust\sty) target="sty"}: cargo::core::compiler::fingerprint: fingerprint error for sty v0.1.0 (F:\rust\sty)/Check { test: false }/TargetInner { name: "sty", doc: true, ..: with_path("F:\\rust\\sty\\src\\main.rs", Edition2024) }
-   0.073107700s  INFO prepare_target{force=false package_id=sty v0.1.0 (F:\rust\sty) target="sty"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\sty\target\debug\.fingerprint\sty-e04271d5c0e22aa1\bin-sty`
+   0.081547600s  INFO prepare_target{force=false package_id=sty v0.1.0 (F:\rust\sty) target="sty"}: cargo::core::compiler::fingerprint: fingerprint error for sty v0.1.0 (F:\rust\sty)/Check { test: false }/TargetInner { name: "sty", doc: true, ..: with_path("F:\\rust\\sty\\src\\main.rs", Edition2024) }
+   0.081587400s  INFO prepare_target{force=false package_id=sty v0.1.0 (F:\rust\sty) target="sty"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\sty\target\debug\.fingerprint\sty-e04271d5c0e22aa1\bin-sty`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.193036300s  INFO prepare_target{force=false package_id=sty v0.1.0 (F:\rust\sty) target="sty"}: cargo::core::compiler::fingerprint: fingerprint error for sty v0.1.0 (F:\rust\sty)/Check { test: true }/TargetInner { name: "sty", doc: true, ..: with_path("F:\\rust\\sty\\src\\main.rs", Edition2024) }
-   0.193069100s  INFO prepare_target{force=false package_id=sty v0.1.0 (F:\rust\sty) target="sty"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\sty\target\debug\.fingerprint\sty-f470cff1c9f0fc41\test-bin-sty`
+   0.122005800s  INFO prepare_target{force=false package_id=sty v0.1.0 (F:\rust\sty) target="sty"}: cargo::core::compiler::fingerprint: fingerprint error for sty v0.1.0 (F:\rust\sty)/Check { test: true }/TargetInner { name: "sty", doc: true, ..: with_path("F:\\rust\\sty\\src\\main.rs", Edition2024) }
+   0.122045000s  INFO prepare_target{force=false package_id=sty v0.1.0 (F:\rust\sty) target="sty"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\sty\target\debug\.fingerprint\sty-f470cff1c9f0fc41\test-bin-sty`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)

@@ -1,8 +1,5 @@
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-   1.193914200s  INFO prepare_target{force=false package_id=methods v0.1.0 (F:\rust\methods) target="methods"}: cargo::core::compiler::fingerprint: fingerprint error for methods v0.1.0 (F:\rust\methods)/Check { test: false }/TargetInner { name: "methods", doc: true, ..: with_path("F:\\rust\\methods\\src\\main.rs", Edition2024) }
-   1.194133900s  INFO prepare_target{force=false package_id=methods v0.1.0 (F:\rust\methods) target="methods"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\methods\target\debug\.fingerprint\methods-c3746209b8fc0ee6\bin-methods`
+   0.038062100s  INFO prepare_target{force=false package_id=methods v0.1.0 (F:\rust\methods) target="methods"}: cargo::core::compiler::fingerprint: fingerprint error for methods v0.1.0 (F:\rust\methods)/Check { test: false }/TargetInner { name: "methods", doc: true, ..: with_path("F:\\rust\\methods\\src\\main.rs", Edition2024) }
+   0.038089100s  INFO prepare_target{force=false package_id=methods v0.1.0 (F:\rust\methods) target="methods"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\methods\target\debug\.fingerprint\methods-c3746209b8fc0ee6\bin-methods`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -29,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   1.564917900s  INFO prepare_target{force=false package_id=methods v0.1.0 (F:\rust\methods) target="methods"}: cargo::core::compiler::fingerprint: fingerprint error for methods v0.1.0 (F:\rust\methods)/Check { test: true }/TargetInner { name: "methods", doc: true, ..: with_path("F:\\rust\\methods\\src\\main.rs", Edition2024) }
-   1.564955300s  INFO prepare_target{force=false package_id=methods v0.1.0 (F:\rust\methods) target="methods"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\methods\target\debug\.fingerprint\methods-2c5834f1c2840a14\test-bin-methods`
+   0.058886400s  INFO prepare_target{force=false package_id=methods v0.1.0 (F:\rust\methods) target="methods"}: cargo::core::compiler::fingerprint: fingerprint error for methods v0.1.0 (F:\rust\methods)/Check { test: true }/TargetInner { name: "methods", doc: true, ..: with_path("F:\\rust\\methods\\src\\main.rs", Edition2024) }
+   0.058909200s  INFO prepare_target{force=false package_id=methods v0.1.0 (F:\rust\methods) target="methods"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\methods\target\debug\.fingerprint\methods-2c5834f1c2840a14\test-bin-methods`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -58,6 +55,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking methods v0.1.0 (F:\rust\methods)
-error: could not compile `methods` (bin "methods" test) due to 1 previous error
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `methods` (bin "methods") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `methods` (bin "methods" test) due to 1 previous error

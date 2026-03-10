@@ -1,6 +1,5 @@
-    Blocking waiting for file lock on package cache
-   0.270459600s  INFO prepare_target{force=false package_id=traits v0.1.0 (F:\rust\traits) target="traits"}: cargo::core::compiler::fingerprint: fingerprint error for traits v0.1.0 (F:\rust\traits)/Check { test: false }/TargetInner { name: "traits", doc: true, ..: with_path("F:\\rust\\traits\\src\\main.rs", Edition2024) }
-   0.270502700s  INFO prepare_target{force=false package_id=traits v0.1.0 (F:\rust\traits) target="traits"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\traits\target\debug\.fingerprint\traits-62abfcc51d24b8d2\bin-traits`
+   0.112279600s  INFO prepare_target{force=false package_id=traits v0.1.0 (F:\rust\traits) target="traits"}: cargo::core::compiler::fingerprint: fingerprint error for traits v0.1.0 (F:\rust\traits)/Check { test: false }/TargetInner { name: "traits", doc: true, ..: with_path("F:\\rust\\traits\\src\\main.rs", Edition2024) }
+   0.112336600s  INFO prepare_target{force=false package_id=traits v0.1.0 (F:\rust\traits) target="traits"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\traits\target\debug\.fingerprint\traits-62abfcc51d24b8d2\bin-traits`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)

@@ -1,5 +1,6 @@
-   0.033153400s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint: fingerprint error for hashmap v0.1.0 (F:\rust\hashmap)/Check { test: false }/TargetInner { name: "hashmap", doc: true, ..: with_path("F:\\rust\\hashmap\\src\\main.rs", Edition2024) }
-   0.033207100s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\hashmap\target\debug\.fingerprint\hashmap-61c3bc84c3ce234f\bin-hashmap`
+    Blocking waiting for file lock on package cache
+   0.078180200s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint: fingerprint error for hashmap v0.1.0 (F:\rust\hashmap)/Check { test: false }/TargetInner { name: "hashmap", doc: true, ..: with_path("F:\\rust\\hashmap\\src\\main.rs", Edition2024) }
+   0.078227200s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\hashmap\target\debug\.fingerprint\hashmap-61c3bc84c3ce234f\bin-hashmap`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +27,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.068596300s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint: fingerprint error for hashmap v0.1.0 (F:\rust\hashmap)/Check { test: true }/TargetInner { name: "hashmap", doc: true, ..: with_path("F:\\rust\\hashmap\\src\\main.rs", Edition2024) }
-   0.068624600s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\hashmap\target\debug\.fingerprint\hashmap-94c0c5811b2fbc89\test-bin-hashmap`
+   0.189783800s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint: fingerprint error for hashmap v0.1.0 (F:\rust\hashmap)/Check { test: true }/TargetInner { name: "hashmap", doc: true, ..: with_path("F:\\rust\\hashmap\\src\\main.rs", Edition2024) }
+   0.189842000s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\hashmap\target\debug\.fingerprint\hashmap-94c0c5811b2fbc89\test-bin-hashmap`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)

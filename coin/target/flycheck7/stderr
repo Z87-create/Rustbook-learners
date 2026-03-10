@@ -1,5 +1,5 @@
-   0.228964600s  INFO prepare_target{force=false package_id=coin v0.1.0 (F:\rust\coin) target="coin"}: cargo::core::compiler::fingerprint: fingerprint error for coin v0.1.0 (F:\rust\coin)/Check { test: false }/TargetInner { name: "coin", doc: true, ..: with_path("F:\\rust\\coin\\src\\main.rs", Edition2024) }
-   0.228997800s  INFO prepare_target{force=false package_id=coin v0.1.0 (F:\rust\coin) target="coin"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\coin\target\debug\.fingerprint\coin-e32730d6a6b43987\bin-coin`
+   0.088059400s  INFO prepare_target{force=false package_id=coin v0.1.0 (F:\rust\coin) target="coin"}: cargo::core::compiler::fingerprint: fingerprint error for coin v0.1.0 (F:\rust\coin)/Check { test: false }/TargetInner { name: "coin", doc: true, ..: with_path("F:\\rust\\coin\\src\\main.rs", Edition2024) }
+   0.088094700s  INFO prepare_target{force=false package_id=coin v0.1.0 (F:\rust\coin) target="coin"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\coin\target\debug\.fingerprint\coin-e32730d6a6b43987\bin-coin`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.326859600s  INFO prepare_target{force=false package_id=coin v0.1.0 (F:\rust\coin) target="coin"}: cargo::core::compiler::fingerprint: fingerprint error for coin v0.1.0 (F:\rust\coin)/Check { test: true }/TargetInner { name: "coin", doc: true, ..: with_path("F:\\rust\\coin\\src\\main.rs", Edition2024) }
-   0.326894000s  INFO prepare_target{force=false package_id=coin v0.1.0 (F:\rust\coin) target="coin"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\coin\target\debug\.fingerprint\coin-61b664ca6904b60f\test-bin-coin`
+   0.179163300s  INFO prepare_target{force=false package_id=coin v0.1.0 (F:\rust\coin) target="coin"}: cargo::core::compiler::fingerprint: fingerprint error for coin v0.1.0 (F:\rust\coin)/Check { test: true }/TargetInner { name: "coin", doc: true, ..: with_path("F:\\rust\\coin\\src\\main.rs", Edition2024) }
+   0.179194700s  INFO prepare_target{force=false package_id=coin v0.1.0 (F:\rust\coin) target="coin"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\coin\target\debug\.fingerprint\coin-61b664ca6904b60f\test-bin-coin`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)

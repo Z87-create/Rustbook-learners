@@ -1,5 +1,5 @@
-   0.040803800s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint: fingerprint error for mutex v0.1.0 (F:\rust\mutex)/Check { test: false }/TargetInner { name: "mutex", doc: true, ..: with_path("F:\\rust\\mutex\\src\\main.rs", Edition2024) }
-   0.040840500s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\mutex\target\debug\.fingerprint\mutex-965909a061d304f5\bin-mutex`
+   0.043362300s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint: fingerprint error for mutex v0.1.0 (F:\rust\mutex)/Check { test: false }/TargetInner { name: "mutex", doc: true, ..: with_path("F:\\rust\\mutex\\src\\main.rs", Edition2024) }
+   0.043389600s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\mutex\target\debug\.fingerprint\mutex-965909a061d304f5\bin-mutex`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.093443100s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint: fingerprint error for mutex v0.1.0 (F:\rust\mutex)/Check { test: true }/TargetInner { name: "mutex", doc: true, ..: with_path("F:\\rust\\mutex\\src\\main.rs", Edition2024) }
-   0.093465600s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\mutex\target\debug\.fingerprint\mutex-6512e1ea13362883\test-bin-mutex`
+   0.120122800s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint: fingerprint error for mutex v0.1.0 (F:\rust\mutex)/Check { test: true }/TargetInner { name: "mutex", doc: true, ..: with_path("F:\\rust\\mutex\\src\\main.rs", Edition2024) }
+   0.120190500s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\mutex\target\debug\.fingerprint\mutex-6512e1ea13362883\test-bin-mutex`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -55,6 +55,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking mutex v0.1.0 (F:\rust\mutex)
-error: could not compile `mutex` (bin "mutex" test) due to 1 previous error; 1 warning emitted
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `mutex` (bin "mutex") due to 1 previous error; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `mutex` (bin "mutex" test) due to 1 previous error; 1 warning emitted

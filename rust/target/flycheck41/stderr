@@ -1,5 +1,5 @@
-   0.033352700s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("花泽", ["lib"], "F:\\rust\\rust\\src\\lib.rs", Edition2024) }
-   0.033380600s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-b4fc377ce59962d6\lib-花泽`
+   0.265524300s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("花泽", ["lib"], "F:\\rust\\rust\\src\\lib.rs", Edition2024) }
+   0.265571500s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-b4fc377ce59962d6\lib-花泽`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.093104800s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("花泽", ["lib"], "F:\\rust\\rust\\src\\lib.rs", Edition2024) }
-   0.093129700s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-586cfe91cd679c5e\test-lib-花泽`
+   0.396801200s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("花泽", ["lib"], "F:\\rust\\rust\\src\\lib.rs", Edition2024) }
+   0.396905600s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-586cfe91cd679c5e\test-lib-花泽`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -54,8 +54,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.106511500s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: false }/TargetInner { name: "花泽", doc: true, ..: with_path("F:\\rust\\rust\\src\\main.rs", Edition2024) }
-   0.106536300s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-3052809ae6965183\bin-花泽`
+   0.437478300s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: false }/TargetInner { name: "花泽", doc: true, ..: with_path("F:\\rust\\rust\\src\\main.rs", Edition2024) }
+   0.437521700s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-3052809ae6965183\bin-花泽`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -82,8 +82,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.107280000s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: true }/TargetInner { name: "花泽", doc: true, ..: with_path("F:\\rust\\rust\\src\\main.rs", Edition2024) }
-   0.107298400s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-19d189d3667df61e\test-bin-花泽`
+   0.448536900s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: true }/TargetInner { name: "花泽", doc: true, ..: with_path("F:\\rust\\rust\\src\\main.rs", Edition2024) }
+   0.448596300s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-19d189d3667df61e\test-bin-花泽`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -111,6 +111,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking 花泽 v0.1.0 (F:\rust\rust)
-error: could not compile `花泽` (lib test) due to 10 previous errors
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `花泽` (lib) due to 10 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `花泽` (lib test) due to 10 previous errors

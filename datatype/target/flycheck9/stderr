@@ -1,5 +1,5 @@
-   0.072763400s  INFO prepare_target{force=false package_id=datatype v0.1.0 (F:\rust\datatype) target="datatype"}: cargo::core::compiler::fingerprint: fingerprint error for datatype v0.1.0 (F:\rust\datatype)/Check { test: false }/TargetInner { name: "datatype", doc: true, ..: with_path("F:\\rust\\datatype\\src\\main.rs", Edition2024) }
-   0.072794200s  INFO prepare_target{force=false package_id=datatype v0.1.0 (F:\rust\datatype) target="datatype"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\datatype\target\debug\.fingerprint\datatype-629975bd9d681ec3\bin-datatype`
+   0.035983900s  INFO prepare_target{force=false package_id=datatype v0.1.0 (F:\rust\datatype) target="datatype"}: cargo::core::compiler::fingerprint: fingerprint error for datatype v0.1.0 (F:\rust\datatype)/Check { test: false }/TargetInner { name: "datatype", doc: true, ..: with_path("F:\\rust\\datatype\\src\\main.rs", Edition2024) }
+   0.036013500s  INFO prepare_target{force=false package_id=datatype v0.1.0 (F:\rust\datatype) target="datatype"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\datatype\target\debug\.fingerprint\datatype-629975bd9d681ec3\bin-datatype`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.111442300s  INFO prepare_target{force=false package_id=datatype v0.1.0 (F:\rust\datatype) target="datatype"}: cargo::core::compiler::fingerprint: fingerprint error for datatype v0.1.0 (F:\rust\datatype)/Check { test: true }/TargetInner { name: "datatype", doc: true, ..: with_path("F:\\rust\\datatype\\src\\main.rs", Edition2024) }
-   0.111472800s  INFO prepare_target{force=false package_id=datatype v0.1.0 (F:\rust\datatype) target="datatype"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\datatype\target\debug\.fingerprint\datatype-b61acfc1d1fc7b69\test-bin-datatype`
+   0.096734100s  INFO prepare_target{force=false package_id=datatype v0.1.0 (F:\rust\datatype) target="datatype"}: cargo::core::compiler::fingerprint: fingerprint error for datatype v0.1.0 (F:\rust\datatype)/Check { test: true }/TargetInner { name: "datatype", doc: true, ..: with_path("F:\\rust\\datatype\\src\\main.rs", Edition2024) }
+   0.096763500s  INFO prepare_target{force=false package_id=datatype v0.1.0 (F:\rust\datatype) target="datatype"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\datatype\target\debug\.fingerprint\datatype-b61acfc1d1fc7b69\test-bin-datatype`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -55,6 +55,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking datatype v0.1.0 (F:\rust\datatype)
-error: could not compile `datatype` (bin "datatype" test) due to 1 previous error; 2 warnings emitted
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `datatype` (bin "datatype") due to 1 previous error; 2 warnings emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `datatype` (bin "datatype" test) due to 1 previous error; 2 warnings emitted

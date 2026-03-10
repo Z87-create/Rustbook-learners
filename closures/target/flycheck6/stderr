@@ -1,5 +1,7 @@
-   0.077119900s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint: fingerprint error for closures v0.1.0 (F:\rust\closures)/Check { test: false }/TargetInner { name: "closures", doc: true, ..: with_path("F:\\rust\\closures\\src\\main.rs", Edition2024) }
-   0.077172900s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\closures\target\debug\.fingerprint\closures-4fd3cd62898197cd\bin-closures`
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.128791000s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint: fingerprint error for closures v0.1.0 (F:\rust\closures)/Check { test: false }/TargetInner { name: "closures", doc: true, ..: with_path("F:\\rust\\closures\\src\\main.rs", Edition2024) }
+   0.128826500s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\closures\target\debug\.fingerprint\closures-4fd3cd62898197cd\bin-closures`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +28,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.115123900s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint: fingerprint error for closures v0.1.0 (F:\rust\closures)/Check { test: true }/TargetInner { name: "closures", doc: true, ..: with_path("F:\\rust\\closures\\src\\main.rs", Edition2024) }
-   0.115153000s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\closures\target\debug\.fingerprint\closures-4518ca1605f6a506\test-bin-closures`
+   0.193092100s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint: fingerprint error for closures v0.1.0 (F:\rust\closures)/Check { test: true }/TargetInner { name: "closures", doc: true, ..: with_path("F:\\rust\\closures\\src\\main.rs", Edition2024) }
+   0.193128500s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\closures\target\debug\.fingerprint\closures-4518ca1605f6a506\test-bin-closures`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -55,6 +57,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking closures v0.1.0 (F:\rust\closures)
-error: could not compile `closures` (bin "closures" test) due to 2 previous errors
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `closures` (bin "closures") due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `closures` (bin "closures" test) due to 2 previous errors

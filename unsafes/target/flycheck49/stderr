@@ -1,8 +1,5 @@
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-   1.153694700s  INFO prepare_target{force=false package_id=unsafes v0.1.0 (F:\rust\unsafes) target="unsafes"}: cargo::core::compiler::fingerprint: fingerprint error for unsafes v0.1.0 (F:\rust\unsafes)/Check { test: false }/TargetInner { name: "unsafes", doc: true, ..: with_path("F:\\rust\\unsafes\\src\\main.rs", Edition2024) }
-   1.153730400s  INFO prepare_target{force=false package_id=unsafes v0.1.0 (F:\rust\unsafes) target="unsafes"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\unsafes\target\debug\.fingerprint\unsafes-4baae56610f6e296\bin-unsafes`
+   0.063059400s  INFO prepare_target{force=false package_id=unsafes v0.1.0 (F:\rust\unsafes) target="unsafes"}: cargo::core::compiler::fingerprint: fingerprint error for unsafes v0.1.0 (F:\rust\unsafes)/Check { test: false }/TargetInner { name: "unsafes", doc: true, ..: with_path("F:\\rust\\unsafes\\src\\main.rs", Edition2024) }
+   0.063092800s  INFO prepare_target{force=false package_id=unsafes v0.1.0 (F:\rust\unsafes) target="unsafes"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\unsafes\target\debug\.fingerprint\unsafes-4baae56610f6e296\bin-unsafes`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -29,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   1.222820500s  INFO prepare_target{force=false package_id=unsafes v0.1.0 (F:\rust\unsafes) target="unsafes"}: cargo::core::compiler::fingerprint: fingerprint error for unsafes v0.1.0 (F:\rust\unsafes)/Check { test: true }/TargetInner { name: "unsafes", doc: true, ..: with_path("F:\\rust\\unsafes\\src\\main.rs", Edition2024) }
-   1.222881600s  INFO prepare_target{force=false package_id=unsafes v0.1.0 (F:\rust\unsafes) target="unsafes"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\unsafes\target\debug\.fingerprint\unsafes-82077143f078cf2f\test-bin-unsafes`
+   0.125529000s  INFO prepare_target{force=false package_id=unsafes v0.1.0 (F:\rust\unsafes) target="unsafes"}: cargo::core::compiler::fingerprint: fingerprint error for unsafes v0.1.0 (F:\rust\unsafes)/Check { test: true }/TargetInner { name: "unsafes", doc: true, ..: with_path("F:\\rust\\unsafes\\src\\main.rs", Edition2024) }
+   0.125557700s  INFO prepare_target{force=false package_id=unsafes v0.1.0 (F:\rust\unsafes) target="unsafes"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\unsafes\target\debug\.fingerprint\unsafes-82077143f078cf2f\test-bin-unsafes`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -58,6 +55,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking unsafes v0.1.0 (F:\rust\unsafes)
-error: could not compile `unsafes` (bin "unsafes" test) due to 1 previous error
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `unsafes` (bin "unsafes") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `unsafes` (bin "unsafes" test) due to 1 previous error

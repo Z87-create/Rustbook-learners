@@ -1,5 +1,5 @@
-   0.048393100s  INFO prepare_target{force=false package_id=collection v0.1.0 (F:\rust\collection) target="collection"}: cargo::core::compiler::fingerprint: fingerprint error for collection v0.1.0 (F:\rust\collection)/Check { test: false }/TargetInner { name: "collection", doc: true, ..: with_path("F:\\rust\\collection\\src\\main.rs", Edition2024) }
-   0.048428700s  INFO prepare_target{force=false package_id=collection v0.1.0 (F:\rust\collection) target="collection"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\collection\target\debug\.fingerprint\collection-e87f62f9b179917e\bin-collection`
+   0.077241300s  INFO prepare_target{force=false package_id=collection v0.1.0 (F:\rust\collection) target="collection"}: cargo::core::compiler::fingerprint: fingerprint error for collection v0.1.0 (F:\rust\collection)/Check { test: false }/TargetInner { name: "collection", doc: true, ..: with_path("F:\\rust\\collection\\src\\main.rs", Edition2024) }
+   0.077304800s  INFO prepare_target{force=false package_id=collection v0.1.0 (F:\rust\collection) target="collection"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\collection\target\debug\.fingerprint\collection-e87f62f9b179917e\bin-collection`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.101027200s  INFO prepare_target{force=false package_id=collection v0.1.0 (F:\rust\collection) target="collection"}: cargo::core::compiler::fingerprint: fingerprint error for collection v0.1.0 (F:\rust\collection)/Check { test: true }/TargetInner { name: "collection", doc: true, ..: with_path("F:\\rust\\collection\\src\\main.rs", Edition2024) }
-   0.101054800s  INFO prepare_target{force=false package_id=collection v0.1.0 (F:\rust\collection) target="collection"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\collection\target\debug\.fingerprint\collection-4dc48bd39e72e064\test-bin-collection`
+   0.109227100s  INFO prepare_target{force=false package_id=collection v0.1.0 (F:\rust\collection) target="collection"}: cargo::core::compiler::fingerprint: fingerprint error for collection v0.1.0 (F:\rust\collection)/Check { test: true }/TargetInner { name: "collection", doc: true, ..: with_path("F:\\rust\\collection\\src\\main.rs", Edition2024) }
+   0.109258600s  INFO prepare_target{force=false package_id=collection v0.1.0 (F:\rust\collection) target="collection"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\collection\target\debug\.fingerprint\collection-4dc48bd39e72e064\test-bin-collection`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -55,6 +55,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking collection v0.1.0 (F:\rust\collection)
-error: could not compile `collection` (bin "collection" test) due to 1 previous error
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `collection` (bin "collection") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `collection` (bin "collection" test) due to 1 previous error
