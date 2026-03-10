@@ -1,0 +1,119 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.290318300s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("iteratar", ["lib"], "F:\\rust\\iteratar\\src\\lib.rs", Edition2024) }
+   0.290372000s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-c0dab82befcf34f6\lib-iteratar`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.661689400s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("iteratar", ["lib"], "F:\\rust\\iteratar\\src\\lib.rs", Edition2024) }
+   0.661723900s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-135e853a22e4d1d7\test-lib-iteratar`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.789016100s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: false }/TargetInner { name: "iteratar", doc: true, ..: with_path("F:\\rust\\iteratar\\src\\main.rs", Edition2024) }
+   0.789128100s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-46aa1a7e2b5a77da\bin-iteratar`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.794813000s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: true }/TargetInner { name: "iteratar", doc: true, ..: with_path("F:\\rust\\iteratar\\src\\main.rs", Edition2024) }
+   0.794856000s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-a13f6658533c2cde\test-bin-iteratar`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking iteratar v0.1.0 (F:\rust\iteratar)
+error: could not compile `iteratar` (lib) due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `iteratar` (lib test) due to 7 previous errors

@@ -1,5 +1,6 @@
-   0.066531200s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint error for enums v0.1.0 (F:\rust\enums)/Check { test: false }/TargetInner { name: "enums", doc: true, ..: with_path("F:\\rust\\enums\\src\\main.rs", Edition2024) }
-   0.066583900s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\enums\target\debug\.fingerprint\enums-6c606b8e48f3f463\bin-enums`
+    Blocking waiting for file lock on package cache
+   0.066197000s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint error for enums v0.1.0 (F:\rust\enums)/Check { test: false }/TargetInner { name: "enums", doc: true, ..: with_path("F:\\rust\\enums\\src\\main.rs", Edition2024) }
+   0.066228000s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\enums\target\debug\.fingerprint\enums-6c606b8e48f3f463\bin-enums`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +27,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.114525900s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint error for enums v0.1.0 (F:\rust\enums)/Check { test: true }/TargetInner { name: "enums", doc: true, ..: with_path("F:\\rust\\enums\\src\\main.rs", Edition2024) }
-   0.114629700s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\enums\target\debug\.fingerprint\enums-3628c5ad9402513f\test-bin-enums`
+   0.084876300s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint error for enums v0.1.0 (F:\rust\enums)/Check { test: true }/TargetInner { name: "enums", doc: true, ..: with_path("F:\\rust\\enums\\src\\main.rs", Edition2024) }
+   0.084899300s  INFO prepare_target{force=false package_id=enums v0.1.0 (F:\rust\enums) target="enums"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\enums\target\debug\.fingerprint\enums-3628c5ad9402513f\test-bin-enums`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)

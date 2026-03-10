@@ -1,0 +1,116 @@
+   0.035152100s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("花泽", ["lib"], "F:\\rust\\rust\\src\\lib.rs", Edition2024) }
+   0.035189400s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-b4fc377ce59962d6\lib-花泽`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.064036100s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("花泽", ["lib"], "F:\\rust\\rust\\src\\lib.rs", Edition2024) }
+   0.064066000s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-586cfe91cd679c5e\test-lib-花泽`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.074753000s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: false }/TargetInner { name: "花泽", doc: true, ..: with_path("F:\\rust\\rust\\src\\main.rs", Edition2024) }
+   0.074798200s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-3052809ae6965183\bin-花泽`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.075562500s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint: fingerprint error for 花泽 v0.1.0 (F:\rust\rust)/Check { test: true }/TargetInner { name: "花泽", doc: true, ..: with_path("F:\\rust\\rust\\src\\main.rs", Edition2024) }
+   0.075581400s  INFO prepare_target{force=false package_id=花泽 v0.1.0 (F:\rust\rust) target="花泽"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\rust\target\debug\.fingerprint\花泽-19d189d3667df61e\test-bin-花泽`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking 花泽 v0.1.0 (F:\rust\rust)
+error: could not compile `花泽` (lib) due to 10 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `花泽` (lib test) due to 10 previous errors

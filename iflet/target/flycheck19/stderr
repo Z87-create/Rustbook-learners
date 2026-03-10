@@ -1,5 +1,5 @@
-   0.056152000s  INFO prepare_target{force=false package_id=iflet v0.1.0 (F:\rust\iflet) target="iflet"}: cargo::core::compiler::fingerprint: fingerprint error for iflet v0.1.0 (F:\rust\iflet)/Check { test: false }/TargetInner { name: "iflet", doc: true, ..: with_path("F:\\rust\\iflet\\src\\main.rs", Edition2024) }
-   0.056191400s  INFO prepare_target{force=false package_id=iflet v0.1.0 (F:\rust\iflet) target="iflet"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iflet\target\debug\.fingerprint\iflet-61aa69ca434a93e2\bin-iflet`
+   0.049427200s  INFO prepare_target{force=false package_id=iflet v0.1.0 (F:\rust\iflet) target="iflet"}: cargo::core::compiler::fingerprint: fingerprint error for iflet v0.1.0 (F:\rust\iflet)/Check { test: false }/TargetInner { name: "iflet", doc: true, ..: with_path("F:\\rust\\iflet\\src\\main.rs", Edition2024) }
+   0.049487200s  INFO prepare_target{force=false package_id=iflet v0.1.0 (F:\rust\iflet) target="iflet"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iflet\target\debug\.fingerprint\iflet-61aa69ca434a93e2\bin-iflet`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.086100100s  INFO prepare_target{force=false package_id=iflet v0.1.0 (F:\rust\iflet) target="iflet"}: cargo::core::compiler::fingerprint: fingerprint error for iflet v0.1.0 (F:\rust\iflet)/Check { test: true }/TargetInner { name: "iflet", doc: true, ..: with_path("F:\\rust\\iflet\\src\\main.rs", Edition2024) }
-   0.086127700s  INFO prepare_target{force=false package_id=iflet v0.1.0 (F:\rust\iflet) target="iflet"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iflet\target\debug\.fingerprint\iflet-3c401a17bac0c8a7\test-bin-iflet`
+   0.078915900s  INFO prepare_target{force=false package_id=iflet v0.1.0 (F:\rust\iflet) target="iflet"}: cargo::core::compiler::fingerprint: fingerprint error for iflet v0.1.0 (F:\rust\iflet)/Check { test: true }/TargetInner { name: "iflet", doc: true, ..: with_path("F:\\rust\\iflet\\src\\main.rs", Edition2024) }
+   0.078944000s  INFO prepare_target{force=false package_id=iflet v0.1.0 (F:\rust\iflet) target="iflet"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iflet\target\debug\.fingerprint\iflet-3c401a17bac0c8a7\test-bin-iflet`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)

@@ -1,0 +1,30 @@
+   0.099586600s  INFO prepare_target{force=false package_id=traits v0.1.0 (F:\rust\traits) target="traits"}: cargo::core::compiler::fingerprint: fingerprint error for traits v0.1.0 (F:\rust\traits)/Check { test: false }/TargetInner { name: "traits", doc: true, ..: with_path("F:\\rust\\traits\\src\\main.rs", Edition2024) }
+   0.099626200s  INFO prepare_target{force=false package_id=traits v0.1.0 (F:\rust\traits) target="traits"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\traits\target\debug\.fingerprint\traits-62abfcc51d24b8d2\bin-traits`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking traits v0.1.0 (F:\rust\traits)
+error: could not compile `traits` (bin "traits") due to 1 previous error

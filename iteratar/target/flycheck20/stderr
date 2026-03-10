@@ -1,5 +1,5 @@
-   0.037421600s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("iteratar", ["lib"], "F:\\rust\\iteratar\\src\\lib.rs", Edition2024) }
-   0.037463000s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-c0dab82befcf34f6\lib-iteratar`
+   0.089286700s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("iteratar", ["lib"], "F:\\rust\\iteratar\\src\\lib.rs", Edition2024) }
+   0.089320200s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-c0dab82befcf34f6\lib-iteratar`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.066743200s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("iteratar", ["lib"], "F:\\rust\\iteratar\\src\\lib.rs", Edition2024) }
-   0.066771600s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-135e853a22e4d1d7\test-lib-iteratar`
+   0.264046400s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("iteratar", ["lib"], "F:\\rust\\iteratar\\src\\lib.rs", Edition2024) }
+   0.264094500s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-135e853a22e4d1d7\test-lib-iteratar`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -54,8 +54,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.082598600s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: false }/TargetInner { name: "iteratar", doc: true, ..: with_path("F:\\rust\\iteratar\\src\\main.rs", Edition2024) }
-   0.082638700s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-46aa1a7e2b5a77da\bin-iteratar`
+   0.311600300s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: false }/TargetInner { name: "iteratar", doc: true, ..: with_path("F:\\rust\\iteratar\\src\\main.rs", Edition2024) }
+   0.311636100s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-46aa1a7e2b5a77da\bin-iteratar`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -82,8 +82,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.083714800s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: true }/TargetInner { name: "iteratar", doc: true, ..: with_path("F:\\rust\\iteratar\\src\\main.rs", Edition2024) }
-   0.083740400s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-a13f6658533c2cde\test-bin-iteratar`
+   0.312313600s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint: fingerprint error for iteratar v0.1.0 (F:\rust\iteratar)/Check { test: true }/TargetInner { name: "iteratar", doc: true, ..: with_path("F:\\rust\\iteratar\\src\\main.rs", Edition2024) }
+   0.312329800s  INFO prepare_target{force=false package_id=iteratar v0.1.0 (F:\rust\iteratar) target="iteratar"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\iteratar\target\debug\.fingerprint\iteratar-a13f6658533c2cde\test-bin-iteratar`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -111,6 +111,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking iteratar v0.1.0 (F:\rust\iteratar)
-error: could not compile `iteratar` (lib test) due to 7 previous errors
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `iteratar` (lib) due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `iteratar` (lib test) due to 7 previous errors

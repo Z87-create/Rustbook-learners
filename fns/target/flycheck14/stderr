@@ -1,0 +1,10 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   2.817809900s  INFO prepare_target{force=false package_id=fns v0.1.0 (F:\rust\fns) target="fns"}: cargo::core::compiler::fingerprint: stale: changed "F:\\rust\\fns\\src\\main.rs"
+   2.817839700s  INFO prepare_target{force=false package_id=fns v0.1.0 (F:\rust\fns) target="fns"}: cargo::core::compiler::fingerprint:           (vs) "F:\\rust\\fns\\target\\debug\\.fingerprint\\fns-9dd8e93fcbb77133\\dep-bin-fns"
+   2.817845900s  INFO prepare_target{force=false package_id=fns v0.1.0 (F:\rust\fns) target="fns"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13417630534, nanos: 0 } < FileTime { seconds: 13417632420, nanos: 0 }
+   2.880142300s  INFO prepare_target{force=false package_id=fns v0.1.0 (F:\rust\fns) target="fns"}: cargo::core::compiler::fingerprint: fingerprint dirty for fns v0.1.0 (F:\rust\fns)/Check { test: false }/TargetInner { name: "fns", doc: true, ..: with_path("F:\\rust\\fns\\src\\main.rs", Edition2024) }
+   2.880183700s  INFO prepare_target{force=false package_id=fns v0.1.0 (F:\rust\fns) target="fns"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "F:\\rust\\fns\\target\\debug\\.fingerprint\\fns-9dd8e93fcbb77133\\dep-bin-fns", reference_mtime: FileTime { seconds: 13417630534, nanos: 0 }, stale: "F:\\rust\\fns\\src\\main.rs", stale_mtime: FileTime { seconds: 13417632420, nanos: 0 } }))
+    Checking fns v0.1.0 (F:\rust\fns)
+error: could not compile `fns` (bin "fns") due to 1 previous error; 1 warning emitted

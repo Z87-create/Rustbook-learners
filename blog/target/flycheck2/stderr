@@ -1,7 +1,5 @@
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-   0.484331700s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint: fingerprint error for blog v0.1.0 (F:\rust\blog)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("blog", ["lib"], "F:\\rust\\blog\\src\\lib.rs", Edition2024) }
-   0.484381400s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\blog\target\debug\.fingerprint\blog-cfc15be11d3e114e\lib-blog`
+   0.034995000s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint: fingerprint error for blog v0.1.0 (F:\rust\blog)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("blog", ["lib"], "F:\\rust\\blog\\src\\lib.rs", Edition2024) }
+   0.035026700s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\blog\target\debug\.fingerprint\blog-cfc15be11d3e114e\lib-blog`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -28,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.566706300s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint: fingerprint error for blog v0.1.0 (F:\rust\blog)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("blog", ["lib"], "F:\\rust\\blog\\src\\lib.rs", Edition2024) }
-   0.566767600s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\blog\target\debug\.fingerprint\blog-ae95c84e0ad2a523\test-lib-blog`
+   2.025691800s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint: fingerprint error for blog v0.1.0 (F:\rust\blog)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("blog", ["lib"], "F:\\rust\\blog\\src\\lib.rs", Edition2024) }
+   2.025716600s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\blog\target\debug\.fingerprint\blog-ae95c84e0ad2a523\test-lib-blog`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -56,8 +54,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.809384700s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint: fingerprint error for blog v0.1.0 (F:\rust\blog)/Check { test: false }/TargetInner { name: "blog", doc: true, ..: with_path("F:\\rust\\blog\\src\\main.rs", Edition2024) }
-   0.809436400s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\blog\target\debug\.fingerprint\blog-e9033124af6c2a6f\bin-blog`
+   2.096062200s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint: fingerprint error for blog v0.1.0 (F:\rust\blog)/Check { test: false }/TargetInner { name: "blog", doc: true, ..: with_path("F:\\rust\\blog\\src\\main.rs", Edition2024) }
+   2.096103000s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\blog\target\debug\.fingerprint\blog-e9033124af6c2a6f\bin-blog`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -84,8 +82,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.815069800s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint: fingerprint error for blog v0.1.0 (F:\rust\blog)/Check { test: true }/TargetInner { name: "blog", doc: true, ..: with_path("F:\\rust\\blog\\src\\main.rs", Edition2024) }
-   0.815099000s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\blog\target\debug\.fingerprint\blog-7081348e098a954c\test-bin-blog`
+   2.096930000s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint: fingerprint error for blog v0.1.0 (F:\rust\blog)/Check { test: true }/TargetInner { name: "blog", doc: true, ..: with_path("F:\\rust\\blog\\src\\main.rs", Edition2024) }
+   2.096948900s  INFO prepare_target{force=false package_id=blog v0.1.0 (F:\rust\blog) target="blog"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\blog\target\debug\.fingerprint\blog-7081348e098a954c\test-bin-blog`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -113,6 +111,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking blog v0.1.0 (F:\rust\blog)
-error: could not compile `blog` (lib) due to 5 previous errors; 1 warning emitted
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `blog` (lib test) due to 5 previous errors; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `blog` (lib) due to 5 previous errors; 1 warning emitted

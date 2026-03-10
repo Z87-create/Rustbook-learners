@@ -1,8 +1,7 @@
     Blocking waiting for file lock on package cache
     Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-   0.262297700s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("minigrep", ["lib"], "F:\\rust\\minigrep\\src\\lib.rs", Edition2024) }
-   0.262331100s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-7ccb77c63748a55c\lib-minigrep`
+   0.154670000s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("minigrep", ["lib"], "F:\\rust\\minigrep\\src\\lib.rs", Edition2024) }
+   0.154715700s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-7ccb77c63748a55c\lib-minigrep`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -29,8 +28,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   1.084710200s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("minigrep", ["lib"], "F:\\rust\\minigrep\\src\\lib.rs", Edition2024) }
-   1.084748800s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-76b9344b67f8b29d\test-lib-minigrep`
+   0.234261100s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("minigrep", ["lib"], "F:\\rust\\minigrep\\src\\lib.rs", Edition2024) }
+   0.234307300s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-76b9344b67f8b29d\test-lib-minigrep`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -57,8 +56,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   1.162910600s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: false }/TargetInner { name: "minigrep", doc: true, ..: with_path("F:\\rust\\minigrep\\src\\main.rs", Edition2024) }
-   1.162946000s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-70a0563c31ea481f\bin-minigrep`
+   0.309454500s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: false }/TargetInner { name: "minigrep", doc: true, ..: with_path("F:\\rust\\minigrep\\src\\main.rs", Edition2024) }
+   0.309512100s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-70a0563c31ea481f\bin-minigrep`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
@@ -85,8 +84,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   1.167123600s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: true }/TargetInner { name: "minigrep", doc: true, ..: with_path("F:\\rust\\minigrep\\src\\main.rs", Edition2024) }
-   1.167148000s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-3682018d325e655f\test-bin-minigrep`
+   0.371368800s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: true }/TargetInner { name: "minigrep", doc: true, ..: with_path("F:\\rust\\minigrep\\src\\main.rs", Edition2024) }
+   0.371428200s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-3682018d325e655f\test-bin-minigrep`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)

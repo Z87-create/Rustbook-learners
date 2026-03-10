@@ -1,5 +1,5 @@
-   0.419817700s  INFO prepare_target{force=false package_id=lifelong v0.1.0 (F:\rust\lifelong) target="lifelong"}: cargo::core::compiler::fingerprint: fingerprint error for lifelong v0.1.0 (F:\rust\lifelong)/Check { test: false }/TargetInner { name: "lifelong", doc: true, ..: with_path("F:\\rust\\lifelong\\src\\main.rs", Edition2024) }
-   0.419863700s  INFO prepare_target{force=false package_id=lifelong v0.1.0 (F:\rust\lifelong) target="lifelong"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\lifelong\target\debug\.fingerprint\lifelong-ab29f5c6149ad24d\bin-lifelong`
+   0.071837900s  INFO prepare_target{force=false package_id=lifelong v0.1.0 (F:\rust\lifelong) target="lifelong"}: cargo::core::compiler::fingerprint: fingerprint error for lifelong v0.1.0 (F:\rust\lifelong)/Check { test: false }/TargetInner { name: "lifelong", doc: true, ..: with_path("F:\\rust\\lifelong\\src\\main.rs", Edition2024) }
+   0.071870000s  INFO prepare_target{force=false package_id=lifelong v0.1.0 (F:\rust\lifelong) target="lifelong"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\lifelong\target\debug\.fingerprint\lifelong-ab29f5c6149ad24d\bin-lifelong`
 
 Caused by:
     系统找不到指定的文件。 (os error 2)
