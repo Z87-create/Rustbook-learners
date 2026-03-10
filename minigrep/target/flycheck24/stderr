@@ -1,0 +1,119 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.544980000s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("minigrep", ["lib"], "F:\\rust\\minigrep\\src\\lib.rs", Edition2024) }
+   0.545032300s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-7ccb77c63748a55c\lib-minigrep`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.763350700s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("minigrep", ["lib"], "F:\\rust\\minigrep\\src\\lib.rs", Edition2024) }
+   0.763398900s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-76b9344b67f8b29d\test-lib-minigrep`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.849969900s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: false }/TargetInner { name: "minigrep", doc: true, ..: with_path("F:\\rust\\minigrep\\src\\main.rs", Edition2024) }
+   0.850021500s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-70a0563c31ea481f\bin-minigrep`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.915314700s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (F:\rust\minigrep)/Check { test: true }/TargetInner { name: "minigrep", doc: true, ..: with_path("F:\\rust\\minigrep\\src\\main.rs", Edition2024) }
+   0.915371600s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (F:\rust\minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\minigrep\target\debug\.fingerprint\minigrep-3682018d325e655f\test-bin-minigrep`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking minigrep v0.1.0 (F:\rust\minigrep)
+error: could not compile `minigrep` (lib test) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `minigrep` (lib) due to 1 previous error

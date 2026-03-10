@@ -1,0 +1,74 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.578639900s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint: stale: changed "F:\\rust\\gui\\src\\lib.rs"
+   0.578684800s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint:           (vs) "F:\\rust\\gui\\target\\debug\\.fingerprint\\gui-43b60509bb1ef3bf\\dep-lib-gui"
+   0.578690900s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13417593132, nanos: 0 } < FileTime { seconds: 13417605352, nanos: 0 }
+   0.579003200s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint: fingerprint dirty for gui v0.1.0 (F:\rust\gui)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("gui", ["lib"], "F:\\rust\\gui\\src\\lib.rs", Edition2024) }
+   0.579036300s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "F:\\rust\\gui\\target\\debug\\.fingerprint\\gui-43b60509bb1ef3bf\\dep-lib-gui", reference_mtime: FileTime { seconds: 13417593132, nanos: 0 }, stale: "F:\\rust\\gui\\src\\lib.rs", stale_mtime: FileTime { seconds: 13417605352, nanos: 0 } }))
+   0.617057100s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint: stale: changed "F:\\rust\\gui\\src\\lib.rs"
+   0.617079000s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint:           (vs) "F:\\rust\\gui\\target\\debug\\.fingerprint\\gui-aaf75a7bd0728589\\dep-test-lib-gui"
+   0.617084900s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13417593132, nanos: 0 } < FileTime { seconds: 13417605352, nanos: 0 }
+   0.617342800s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint: fingerprint dirty for gui v0.1.0 (F:\rust\gui)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("gui", ["lib"], "F:\\rust\\gui\\src\\lib.rs", Edition2024) }
+   0.617364000s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "F:\\rust\\gui\\target\\debug\\.fingerprint\\gui-aaf75a7bd0728589\\dep-test-lib-gui", reference_mtime: FileTime { seconds: 13417593132, nanos: 0 }, stale: "F:\\rust\\gui\\src\\lib.rs", stale_mtime: FileTime { seconds: 13417605352, nanos: 0 } }))
+   0.647778700s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint: fingerprint error for gui v0.1.0 (F:\rust\gui)/Check { test: false }/TargetInner { name: "gui", doc: true, ..: with_path("F:\\rust\\gui\\src\\main.rs", Edition2024) }
+   0.647823000s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\gui\target\debug\.fingerprint\gui-5d1646a1b593aab5\bin-gui`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.718496000s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint: fingerprint error for gui v0.1.0 (F:\rust\gui)/Check { test: true }/TargetInner { name: "gui", doc: true, ..: with_path("F:\\rust\\gui\\src\\main.rs", Edition2024) }
+   0.718519900s  INFO prepare_target{force=false package_id=gui v0.1.0 (F:\rust\gui) target="gui"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\gui\target\debug\.fingerprint\gui-da62176b877e3871\test-bin-gui`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking gui v0.1.0 (F:\rust\gui)
+error: could not compile `gui` (lib test) due to 2 previous errors; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `gui` (lib) due to 2 previous errors; 1 warning emitted

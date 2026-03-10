@@ -1,0 +1,60 @@
+   0.072616200s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint: fingerprint error for hashmap v0.1.0 (F:\rust\hashmap)/Check { test: false }/TargetInner { name: "hashmap", doc: true, ..: with_path("F:\\rust\\hashmap\\src\\main.rs", Edition2024) }
+   0.072667100s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\hashmap\target\debug\.fingerprint\hashmap-61c3bc84c3ce234f\bin-hashmap`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.117109100s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint: fingerprint error for hashmap v0.1.0 (F:\rust\hashmap)/Check { test: true }/TargetInner { name: "hashmap", doc: true, ..: with_path("F:\\rust\\hashmap\\src\\main.rs", Edition2024) }
+   0.117141400s  INFO prepare_target{force=false package_id=hashmap v0.1.0 (F:\rust\hashmap) target="hashmap"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\hashmap\target\debug\.fingerprint\hashmap-94c0c5811b2fbc89\test-bin-hashmap`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking hashmap v0.1.0 (F:\rust\hashmap)
+error: could not compile `hashmap` (bin "hashmap") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `hashmap` (bin "hashmap" test) due to 1 previous error

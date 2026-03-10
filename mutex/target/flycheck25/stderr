@@ -1,0 +1,60 @@
+   0.036209700s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint: fingerprint error for mutex v0.1.0 (F:\rust\mutex)/Check { test: false }/TargetInner { name: "mutex", doc: true, ..: with_path("F:\\rust\\mutex\\src\\main.rs", Edition2024) }
+   0.036242900s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\mutex\target\debug\.fingerprint\mutex-965909a061d304f5\bin-mutex`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.063071800s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint: fingerprint error for mutex v0.1.0 (F:\rust\mutex)/Check { test: true }/TargetInner { name: "mutex", doc: true, ..: with_path("F:\\rust\\mutex\\src\\main.rs", Edition2024) }
+   0.063097700s  INFO prepare_target{force=false package_id=mutex v0.1.0 (F:\rust\mutex) target="mutex"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\mutex\target\debug\.fingerprint\mutex-6512e1ea13362883\test-bin-mutex`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking mutex v0.1.0 (F:\rust\mutex)
+error: could not compile `mutex` (bin "mutex") due to 1 previous error; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `mutex` (bin "mutex" test) due to 1 previous error; 1 warning emitted

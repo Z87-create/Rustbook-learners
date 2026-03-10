@@ -1,0 +1,6 @@
+    Blocking waiting for file lock on package cache
+   0.129803100s  INFO prepare_target{force=false package_id=object v0.1.0 (F:\rust\object) target="object"}: cargo::core::compiler::fingerprint: dependency on `object` is newer than we are 13417605686.000000000s > 13417593150.000000000s "F:\\rust\\object"
+   0.130311300s  INFO prepare_target{force=false package_id=object v0.1.0 (F:\rust\object) target="object"}: cargo::core::compiler::fingerprint: fingerprint dirty for object v0.1.0 (F:\rust\object)/Check { test: false }/TargetInner { name: "object", doc: true, ..: with_path("F:\\rust\\object\\src\\main.rs", Edition2024) }
+   0.130336800s  INFO prepare_target{force=false package_id=object v0.1.0 (F:\rust\object) target="object"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "object", dep_mtime: FileTime { seconds: 13417605686, nanos: 0 }, max_mtime: FileTime { seconds: 13417593150, nanos: 0 } })
+    Checking object v0.1.0 (F:\rust\object)
+error: could not compile `object` (bin "object") due to 1 previous error; 1 warning emitted

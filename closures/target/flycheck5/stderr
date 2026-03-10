@@ -1,0 +1,62 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.907982900s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint: fingerprint error for closures v0.1.0 (F:\rust\closures)/Check { test: false }/TargetInner { name: "closures", doc: true, ..: with_path("F:\\rust\\closures\\src\\main.rs", Edition2024) }
+   0.908015000s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\closures\target\debug\.fingerprint\closures-4fd3cd62898197cd\bin-closures`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   1.167633900s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint: fingerprint error for closures v0.1.0 (F:\rust\closures)/Check { test: true }/TargetInner { name: "closures", doc: true, ..: with_path("F:\\rust\\closures\\src\\main.rs", Edition2024) }
+   1.167668000s  INFO prepare_target{force=false package_id=closures v0.1.0 (F:\rust\closures) target="closures"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\closures\target\debug\.fingerprint\closures-4518ca1605f6a506\test-bin-closures`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking closures v0.1.0 (F:\rust\closures)
+error: could not compile `closures` (bin "closures") due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `closures` (bin "closures" test) due to 2 previous errors

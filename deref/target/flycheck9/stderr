@@ -1,0 +1,61 @@
+    Blocking waiting for file lock on package cache
+   0.850030900s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint: fingerprint error for deref v0.1.0 (F:\rust\deref)/Check { test: false }/TargetInner { name: "deref", doc: true, ..: with_path("F:\\rust\\deref\\src\\main.rs", Edition2024) }
+   0.850069700s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\deref\target\debug\.fingerprint\deref-b60bd15ff4d052ee\bin-deref`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   1.107905200s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint: fingerprint error for deref v0.1.0 (F:\rust\deref)/Check { test: true }/TargetInner { name: "deref", doc: true, ..: with_path("F:\\rust\\deref\\src\\main.rs", Edition2024) }
+   1.107955500s  INFO prepare_target{force=false package_id=deref v0.1.0 (F:\rust\deref) target="deref"}: cargo::core::compiler::fingerprint:     err: failed to read `F:\rust\deref\target\debug\.fingerprint\deref-cec0f8d845d69546\test-bin-deref`
+
+Caused by:
+    系统找不到指定的文件。 (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking deref v0.1.0 (F:\rust\deref)
+error: could not compile `deref` (bin "deref" test) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `deref` (bin "deref") due to 1 previous error
